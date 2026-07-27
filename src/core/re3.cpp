@@ -810,7 +810,7 @@ static const char *carnames[] = {
 	"mule", "cheetah", "ambulan", "fbicar", "moonbeam", "esperant", "taxi", "kuruma", "bobcat", "mrwhoop", "bfinject", "corpse", "police", "enforcer",
 	"securica", "banshee", "predator", "bus", "rhino", "barracks", "train", "chopper", "dodo", "coach", "cabbie", "stallion", "rumpo", "rcbandit",
 	"bellyup", "mrwongs", "mafia", "yardie", "yakuza", "diablos", "columb", "hoods", "airtrain", "deaddodo", "speeder", "reefer", "panlant", "flatbed",
-	"yankee", "escape", "borgnine", "toyz", "ghost",
+	"yankee", "escape", "borgnine", "toyz", "ghost", "exsess",
 };
 
 //#include <list>
