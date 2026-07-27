@@ -14,14 +14,14 @@
 
 class CModelInfo
 {
-	static CBaseModelInfo *ms_modelInfoPtrs[MODELINFOSIZE];
+	static CBaseModelInfo *ms_modelInfoPtrs[500];
 	static CStore<CSimpleModelInfo, SIMPLEMODELSIZE> ms_simpleModelStore;
 	static CStore<CMloModelInfo, MLOMODELSIZE> ms_mloModelStore;
 	static CStore<CInstance, MLOINSTANCESIZE> ms_mloInstanceStore;
 	static CStore<CTimeModelInfo, TIMEMODELSIZE> ms_timeModelStore;
 	static CStore<CClumpModelInfo, CLUMPMODELSIZE> ms_clumpModelStore;
 	static CStore<CPedModelInfo, PEDMODELSIZE> ms_pedModelStore;
-	static CStore<CVehicleModelInfo, VEHICLEMODELSIZE> ms_vehicleModelStore;
+	static CStore<CVehicleModelInfo, 150> ms_vehicleModelStore;
 	static CStore<C2dEffect, TWODFXSIZE> ms_2dEffectStore;
 	static CStore<CXtraCompsModelInfo, XTRACOMPSMODELSIZE> ms_xtraCompsModelStore;
 
